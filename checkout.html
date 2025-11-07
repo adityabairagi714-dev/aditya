@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="GreenAura - Checkout">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>GreenAura | Checkout</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/greenaura-logo.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-color: #f7fff9;
+        }
+
+        .checkout_area {
+            padding: 100px 0;
+        }
+
+        .checkout_details_area h5 {
+            color: #006400;
+            border-bottom: 2px solid #3cb371;
+            display: inline-block;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            border-radius: 8px;
+        }
+
+        .checkout-content {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 100, 0, 0.15);
+        }
+
+        .checkout-content h5 {
+            color: #006400;
+        }
+
+        .checkout-btn a {
+            background: linear-gradient(135deg, #3cb371, #006400);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            display: block;
+            text-align: center;
+            font-size: 16px;
+            transition: 0.3s ease;
+        }
+
+        .checkout-btn a:hover {
+            background: linear-gradient(135deg, #2e8b57, #004d00);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img">
+            <img src="img/core-img/leaf.png" alt="">
+        </div>
+    </div>
+
+    <!-- ##### Header Start ##### -->
+    <header class="header-area">
+        <!-- Top Header -->
+        <div class="top-header-area">
+            <div class="container">
+                <div class="top-header-content d-flex align-items-center justify-content-between">
+                    <div class="top-header-meta">
+                        <a href="mailto:bairagiaditya536@gmail.com"><i class="fa fa-envelope-o"></i> <span>Email: bairagiaditya536@gmail.com</span></a>
+                        <a href="tel:+919669736651"><i class="fa fa-phone"></i> <span>Call Us: +91 9669736651</span></a>
+                    </div>
+
+                    <div class="top-header-meta d-flex">
+                        <div class="login">
+                            <a href="login.html"><i class="fa fa-user"></i> <span>Login</span></a>
+                        </div>
+                        <div class="login ml-3">
+                            <a href="register.html"><i class="fa fa-user-plus"></i> <span>Register</span></a>
+                        </div>
+                        <div class="cart ml-3">
+                            <a href="cart.html"><i class="fa fa-shopping-cart"></i> <span>Cart</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar -->
+        <div class="GreenAura-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <nav class="classy-navbar justify-content-between" id="GreenAuraNav">
+                        <a href="index.html" class="nav-brand"><img src="img/core-img/greenaura-logo.png" alt="GreenAura Logo"></a>
+
+                        <div class="classy-menu">
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="shop.html">Shop</a></li>
+                                    <li><a href="portfolio.html">Portfolio</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                                <div id="searchIcon"><i class="fa fa-search"></i></div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header End ##### -->
+
+    <!-- ##### Breadcrumb Area ##### -->
+    <div class="breadcrumb-area">
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/24.jpg);">
+            <h2>Checkout</h2>
+        </div>
+    </div>
+
+    <!-- ##### Checkout Area ##### -->
+    <div class="checkout_area">
+        <div class="container">
+            <div class="row justify-content-between">
+                <!-- Billing Details -->
+                <div class="col-12 col-lg-7">
+                    <div class="checkout_details_area">
+                        <h5>Billing Details</h5>
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <label>First Name *</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <label>Last Name *</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <label>Email Address *</label>
+                                    <input type="email" class="form-control" required>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <label>Phone Number *</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <label>Address *</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <label>City *</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <label>State *</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <label>Country *</label>
+                                    <select class="custom-select">
+                                        <option selected>India</option>
+                                        <option>USA</option>
+                                        <option>UK</option>
+                                        <option>Australia</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <label>Postcode</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <label>Order Notes</label>
+                                    <textarea class="form-control" rows="4" placeholder="Notes about your order..."></textarea>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Order Summary -->
+                <div class="col-12 col-lg-4">
+                    <div class="checkout-content">
+                        <h5>Your Order</h5>
+                        <div class="products">
+                            <p>Peace Lily <span class="float-right">₹499</span></p>
+                            <p>Bamboo Plant <span class="float-right">₹399</span></p>
+                            <hr>
+                            <p><strong>Subtotal:</strong> <span class="float-right">₹898</span></p>
+                            <p><strong>Shipping:</strong> <span class="float-right">₹50</span></p>
+                            <hr>
+                            <p><strong>Total:</strong> <span class="float-right">₹948</span></p>
+                        </div>
+                        <div class="checkout-btn mt-4">
+                            <a href="#">Place Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ##### Footer ##### -->
+    <footer class="footer-area bg-img" style="background-image: url(img/bg-img/3.jpg);">
+        <div class="main-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <div class="single-footer-widget">
+                            <div class="footer-logo mb-3">
+                                <a href="#"><img src="img/core-img/greenaura-logo.png" alt="GreenAura Logo"></a>
+                            </div>
+                            <p>Bringing the beauty of nature to your doorstep 🌿</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="single-footer-widget">
+                            <div class="widget-title"><h5>Quick Links</h5></div>
+                            <ul class="widget-nav">
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="cart.html">Cart</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="single-footer-widget">
+                            <div class="widget-title"><h5>Contact</h5></div>
+                            <p><span>Address:</span> Bhopal, MP</p>
+                            <p><span>Phone:</span> +91 9669736651</p>
+                            <p><span>Email:</span> bairagiaditya536@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom-area text-center">
+            <div class="border-line mb-3"></div>
+            <p>© <script>document.write(new Date().getFullYear());</script> GreenAura | All Rights Reserved 🌿</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/plugins/plugins.js"></script>
+    <script src="js/active.js"></script>
+</body>
+
+</html>
